@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+.wrapper{
+   width: 1000px; 
+   height: 600px;
+   margin-top: 50px;
+   margin-left: 200px;
+   border: 1px solid black;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   
+}
+.wrapper-box{
+    width: 500px;
+    height: 600px;
+    border: 1px solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+.box1{
+    width: 50%;
+    height: 70px;
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    margin: 10px;
+}
+.wrapper-big{
+background-color: burlywood;
+}
+.wrapper2{
+    width: 500px;
+    height: 600px;
+    display: flex;
+    padding-top: 100px;
+    align-items: center;
+    justify-content: right;
+    border: 1px solid grey;
+    flex-direction: column;
+    background-color: burlywood;
+}
+.wrapper-form3{
+    width: 400px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid;
+    border-radius: 50px;
+    gap: 7px;
+    flex-direction: column;
+    margin-bottom: 80px;
+    background-color: white;
+}
+.box1 h4{
+    width: 200px;
+    height: 10px;
+
+}
+.box1 p{
+    width: 300px;
+}
+
+.box1 img{
+    width: 60px;
+    height: 60px;
+}
+img{
+    width: 300px;
+}
+.mini-box1{
+    width: 200px;
+    height: 10px;
+}
+.img-logo{
+        width: 50%;
+        height: 70px;
+        display: flex;
+        align-items: left;
+        justify-content: left;
+        margin: 10px;
+        padding-right: 100px;
+}
+
+.img-logo img{
+    width: 100px;
+    height: 50px;
+    margin-right: 20px;
+}
+.box2 input{
+    width: 350px;
+    height: 40px;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 20px;
+    gap: 20px;
+    padding-left: 10px;
+    border: 1px solid grey;
+}
+.box3 input{
+    width: 350px;
+    height: 60px;
+    align-items: center;
+    margin-top: 10px;
+    margin-right: 10px;
+    gap: 20px;
+    padding-left: 10px;
+    border: 1px solid grey;
+}
+.box4 button{
+    width: 350px;
+    height: 40px;
+    align-items: center;
+    margin-top: 10px;
+    margin-right: 10px;
+    padding-left: 10px;
+    color: white;
+    background-color: burlywood;
+}
